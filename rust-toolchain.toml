@@ -1,0 +1,6 @@
+# Day-to-day development uses the newest stable Rust.
+# The minimum supported version (1.88) is declared as `rust-version` in Cargo.toml
+# and is tested in CI by overriding this file with RUSTUP_TOOLCHAIN.
+[toolchain]
+channel = "stable"
+components = ["rustfmt", "clippy"]

@@ -1,0 +1,11 @@
+[package]
+name = "abhilekh-cli"
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT OR Apache-2.0"
+description = "Command-line interface for Abhilekh."
+
+[[bin]]
+name = "abhilekh"
+path = "src/main.rs"

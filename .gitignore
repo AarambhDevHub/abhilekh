@@ -1,0 +1,45 @@
+# Rust build artifacts
+/target/
+
+# Cargo.lock is intentionally tracked for this binary workspace so CI and
+# users resolve the same dependency versions.
+
+# Local Abhilekh data and state
+/.abhilekh/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editors and IDEs
+.idea/
+.vscode/
+.fleet/
+*.iml
+*.suo
+*.user
+*.userossc
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+
+# Coverage and profiling output
+/coverage/
+*.profraw
+*.profdata

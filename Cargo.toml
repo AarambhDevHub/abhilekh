@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/abhilekh-types",
+    "crates/abhilekh-log",
+    "crates/abhilekh-notes",
+    "crates/abhilekh-facts",
+    "crates/abhilekh-index",
+    "crates/abhilekh-core",
+    "crates/abhilekh-mcp",
+    "crates/abhilekh-eval",
+    "crates/abhilekh-cli",
+]
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.88"
+license = "MIT OR Apache-2.0"

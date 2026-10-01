@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/AarambhDevHub/abhilekh/discussions
+    about: Ask questions and share ideas here instead of opening an issue.
+  - name: Report a security vulnerability
+    url: https://github.com/AarambhDevHub/abhilekh/security/advisories/new
+    about: Please report security problems privately.

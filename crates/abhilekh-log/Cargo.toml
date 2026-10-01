@@ -1,0 +1,7 @@
+[package]
+name = "abhilekh-log"
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT OR Apache-2.0"
+description = "Append-only event log for Abhilekh."
