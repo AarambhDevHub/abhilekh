@@ -15,8 +15,9 @@ All notable changes are recorded here. The format follows [Keep a Changelog](htt
 - Minimal compilable library targets and the `abhilekh` CLI shell.
 - Rust workspace ignores for build artifacts, local state, editor files, and secrets.
 
-<!-- Add one line per roadmap version as you finish it, for example:
-## [0.0.1] - 2026-10-05
+## [0.0.2] - 2026-10-02
+
 ### Added
-- Workspace skeleton with nine empty crates and CI.
--->
+- UUIDv7-backed `EpisodeId`, `FactId`, and `EntityId` newtypes.
+- RFC 3339 timestamp serialization and typed `AbhilekhError` errors.
+- Tests covering ID uniqueness and creation-time ordering, timestamp JSON round trips, and typed errors.

@@ -578,7 +578,7 @@ HTTP transport ─► export/import ─► purge ─► docs + numbers ─► bi
 Copy this into your repo and tick items as you go.
 
 ```
-Stage 0  [ ] v0.0.1  [ ] v0.0.2  [ ] v0.0.3  [ ] v0.0.4
+Stage 0  [x] v0.0.1  [x] v0.0.2  [ ] v0.0.3  [ ] v0.0.4
 Stage 1  [ ] v0.1.1  [ ] v0.1.2  [ ] v0.1.3  [ ] v0.1.4  [ ] v0.1.5
 Stage 2  [ ] v0.2.1  [ ] v0.2.2  [ ] v0.2.3  [ ] v0.2.4  [ ] v0.2.5  [ ] v0.2.6  [ ] v0.2.7
 Stage 3  [ ] v0.3.1  [ ] v0.3.2  [ ] v0.3.3  [ ] v0.3.4  [ ] v0.3.5      ← M1
